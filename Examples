@@ -5,3 +5,7 @@ This method is part of the System class in Apex.
 It checks whether the expected value is equal to the actual value.
 If the assertion fails, it provides a more detailed error message with the optional message parameter.
 
+/*with separate Test.startTest() and Test.stopTest() for each method, 
+is a good practice as it keeps the scope of each test method isolated. It's a recommended practice to follow for writing effective and reliable unit tests in Salesforce.*/
+
+//using Test.startTest() and Test.stopTest() ensures that the asynchronous operations are completed before moving on to the assertions.
